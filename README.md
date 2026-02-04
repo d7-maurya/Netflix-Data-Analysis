@@ -31,22 +31,22 @@ This project provides a structured, progressive learning path through data scien
 ```
 Netflix Data Analysis/
 ├── data/
-│   └── netflix_titles.csv          # Netflix dataset
+│   └── netflix_titles.csv                    # Netflix dataset
 ├── level1/
-│   ├── eda.ipynb                   # Exploratory Data Analysis
-│   └── ml.ipynb                    # Basic ML Classification
+│   ├── 01_EDA_Data_Exploration.ipynb        # Exploratory Data Analysis
+│   └── 02_ML_Classification.ipynb           # Basic ML Classification
 ├── level2/
-│   └── tasks.ipynb                 # Regression & Clustering
+│   └── 03_Regression_and_Clustering.ipynb   # Regression & Clustering
 ├── level3/
-│   └── tasks.ipynb                 # Time Series Analysis
-└── README.md                         # This file
+│   └── 04_ARIMA_Time_Series_Forecasting.ipynb  # Time Series Analysis
+└── README.md                                  # This file
 ```
 
 ## Level-by-Level Breakdown
 
 ### Level 1: Fundamentals
 
-#### **EDA Notebook** (`level1/eda.ipynb`)
+#### **EDA Notebook** (`level1/01_EDA_Data_Exploration.ipynb`)
 
 Introduction to data exploration and visualization:
 
@@ -59,7 +59,7 @@ Introduction to data exploration and visualization:
 
 **Skills:** Data loading, cleaning, exploratory analysis, pandas, matplotlib/seaborn
 
-#### **ML Notebook** (`level1/ml.ipynb`)
+#### **ML Notebook** (`level1/02_ML_Classification.ipynb`)
 
 Introduction to machine learning classification:
 
@@ -77,7 +77,7 @@ Introduction to machine learning classification:
 
 ### Level 2: Intermediate
 
-#### **Tasks Notebook** (`level2/tasks.ipynb`)
+#### **Tasks Notebook** (`level2/03_Regression_and_Clustering.ipynb`)
 
 Advanced ML techniques with multiple modeling approaches:
 
@@ -108,7 +108,7 @@ Advanced ML techniques with multiple modeling approaches:
 
 ### Level 3: Advanced
 
-#### **Tasks Notebook** (`level3/tasks.ipynb`)
+#### **Tasks Notebook** (`level3/04_ARIMA_Time_Series_Forecasting.ipynb`)
 
 Time series analysis and forecasting:
 
@@ -146,7 +146,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 1. Navigate to the project directory:
 
    ```bash
-   cd "d:\projects\Netflix Data Analysis"
+   cd "your project folder location"
    ```
 
 2. Start Jupyter:
@@ -156,10 +156,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
    ```
 
 3. Open notebooks in order:
-   - Start with `level1/eda.ipynb`
-   - Progress to `level1/ml.ipynb`
-   - Move to `level2/tasks.ipynb`
-   - Finish with `level3/tasks.ipynb`
+   - Start with `level1/01_EDA_Data_Exploration.ipynb`
+   - Progress to `level1/02_ML_Classification.ipynb`
+   - Move to `level2/03_Regression_and_Clustering.ipynb`
+   - Finish with `level3/04_ARIMA_Time_Series_Forecasting.ipynb`
 
 ## Key Techniques Demonstrated
 
@@ -222,4 +222,4 @@ Netflix Data Analysis Project
 
 ---
 
-**Start your journey:** Begin with `level1/eda.ipynb` to explore the Netflix dataset! 📊
+**Start your journey:** Begin with `level1/01_EDA_Data_Exploration.ipynb` to explore the Netflix dataset! 
