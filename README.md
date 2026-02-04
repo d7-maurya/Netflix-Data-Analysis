@@ -236,6 +236,13 @@ Analyze temporal patterns and forecast future trends:
 
 ### Running the Notebooks
 
+1. Navigate to the project directory:
+
+   ```bash
+   cd "your project folder location"
+   ```
+
+2. Start Jupyter:
 1. **Start Jupyter:**
 
    ```bash
