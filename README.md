@@ -146,7 +146,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 1. Navigate to the project directory:
 
    ```bash
-   cd "your project folder location"
+   cd "d:\projects\Netflix Data Analysis"
    ```
 
 2. Start Jupyter:
